@@ -1,0 +1,18 @@
+
+State Machine - |Too_Much_Cake|collision:WL|S
+Name S.loser S.winner S.alive5 S.alive4 S.alive3 S.alive2 S.alive1 
+S.alive1 0 0 0 0 0 0 0 
+S.alive2 0 0 0 0 0 1 1 
+S.alive3 0 0 0 0 1 0 1 
+S.alive4 0 0 0 1 0 0 1 
+S.alive5 0 0 1 0 0 0 1 
+S.winner 0 1 0 0 0 0 1 
+S.loser 1 0 0 0 0 0 1 
+
+State Machine - |Too_Much_Cake|Guy:Guy1|S
+Name S.Go_up S.Go_right S.Go_left S.Go_down S.Stay 
+S.Stay 0 0 0 0 0 
+S.Go_down 0 0 0 1 1 
+S.Go_left 0 0 1 0 1 
+S.Go_right 0 1 0 0 1 
+S.Go_up 1 0 0 0 1 
