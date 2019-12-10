@@ -1,0 +1,113 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk_convert:clk_convert1|update'
+Slack : -5.482
+TNS   : -3253.566
+
+Type  : Slow 1200mV 85C Model Setup 'clk_convert:clk_convert1|clk'
+Slack : -4.734
+TNS   : -902.755
+
+Type  : Slow 1200mV 85C Model Setup 'FPGA_clk'
+Slack : -3.604
+TNS   : -41.871
+
+Type  : Slow 1200mV 85C Model Hold 'clk_convert:clk_convert1|clk'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk_convert:clk_convert1|update'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'FPGA_clk'
+Slack : 0.390
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'FPGA_clk'
+Slack : -3.000
+TNS   : -35.125
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_convert:clk_convert1|update'
+Slack : -1.285
+TNS   : -1103.815
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_convert:clk_convert1|clk'
+Slack : -1.285
+TNS   : -416.340
+
+Type  : Slow 1200mV 0C Model Setup 'clk_convert:clk_convert1|update'
+Slack : -5.001
+TNS   : -2919.434
+
+Type  : Slow 1200mV 0C Model Setup 'clk_convert:clk_convert1|clk'
+Slack : -4.309
+TNS   : -800.057
+
+Type  : Slow 1200mV 0C Model Setup 'FPGA_clk'
+Slack : -3.216
+TNS   : -35.396
+
+Type  : Slow 1200mV 0C Model Hold 'clk_convert:clk_convert1|clk'
+Slack : 0.336
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk_convert:clk_convert1|update'
+Slack : 0.338
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'FPGA_clk'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'FPGA_clk'
+Slack : -3.000
+TNS   : -35.125
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_convert:clk_convert1|update'
+Slack : -1.285
+TNS   : -1103.815
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_convert:clk_convert1|clk'
+Slack : -1.285
+TNS   : -416.340
+
+Type  : Fast 1200mV 0C Model Setup 'clk_convert:clk_convert1|update'
+Slack : -2.335
+TNS   : -1173.515
+
+Type  : Fast 1200mV 0C Model Setup 'clk_convert:clk_convert1|clk'
+Slack : -2.030
+TNS   : -308.979
+
+Type  : Fast 1200mV 0C Model Setup 'FPGA_clk'
+Slack : -1.301
+TNS   : -9.148
+
+Type  : Fast 1200mV 0C Model Hold 'clk_convert:clk_convert1|clk'
+Slack : 0.173
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk_convert:clk_convert1|update'
+Slack : 0.174
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'FPGA_clk'
+Slack : 0.180
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'FPGA_clk'
+Slack : -3.000
+TNS   : -29.583
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_convert:clk_convert1|update'
+Slack : -1.000
+TNS   : -859.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_convert:clk_convert1|clk'
+Slack : -1.000
+TNS   : -324.000
+
+------------------------------------------------------------

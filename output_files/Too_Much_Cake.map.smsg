@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at Too_Much_Cake.v(28): object "Cake1" differs only in case from object "cake1" in the same scope File: M:/Too_Much_Cake/Too_Much_Cake.v Line: 28
+Info (10281): Verilog HDL Declaration information at Too_Much_Cake.v(29): object "Cake2" differs only in case from object "cake2" in the same scope File: M:/Too_Much_Cake/Too_Much_Cake.v Line: 29

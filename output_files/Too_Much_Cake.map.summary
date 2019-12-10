@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Dec 10 12:58:09 2019
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : Too_Much_Cake
+Top-level Entity Name : Too_Much_Cake
+Family : Cyclone IV E
+Total logic elements : 5,120
+    Total combinational functions : 5,031
+    Dedicated logic registers : 1,208
+Total registers : 1208
+Total pins : 42
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

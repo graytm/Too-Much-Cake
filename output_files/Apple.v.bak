@@ -1,0 +1,37 @@
+module Apple(clk,good_collision,apple,rst,xLength,yLength,update);
+	
+	input clk , good_collision,rst,xLength,yLength,update;
+	output reg apple ;
+	reg [9:0] appleX;
+	reg [8:0] appleY;
+	reg apple_inX;
+	reg apple_inY;
+	wire [9:0]rand_X;
+	wire [8:0]rand_Y;
+	wire [9:0] xLength;
+	wire [9:0] yLength;
+	random_apple salem(clk, rand_X, rand_Y,update);
+	always@(clk)
+	begin
+		if(good_collision)
+		begin
+			appleX=rand_X;
+			appleY=rand_Y;
+		end
+		if(~start)
+		begin
+		appleX=rand_X;
+		appleY=rand_Y;
+		end
+		
+	 end
+	
+	always @(posedge VGA_clk)
+	begin
+		apple_inX <= (xLength > appleX && xLength < (appleX + 10));
+		apple_inY <= (yLength > appleY && yLength < (appleY + 10));
+		apple = apple_inX && apple_inY;
+	end
+	
+
+endmodule 
