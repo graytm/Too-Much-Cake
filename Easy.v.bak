@@ -1,0 +1,7 @@
+module Easy (clk,update,rst,xCount,yCount,traffic);	//this module actually generates individual lanes of traffic that move from one side of the screen to the other
+input clk,rst,update;
+
+input [9:0]xCount;
+input [9:0]yCount;
+wire [9:0] xCount;
+wire [9:0] yCount;
